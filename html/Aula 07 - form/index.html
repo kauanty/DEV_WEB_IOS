@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <title>QUINTA-FEIRA (DIA 17/03/2022)</title>
+        <meta charset="UTF-8">
+</head>
+
+<body>
+        <h4>Aula QUINTA-FEIRA (DIA 17/03/2022)</h4>
+        <header>
+                <nav>
+                        <h2>Elemento de formulário</h2>
+                        <ul>
+                                <li><a href="">Input e label</a></li>
+                                <li><a href="">Checkbox e radio</a></li>
+                                <li><a href="">Select e datalist</a></li>
+                                <li><a href="">Textarea</a></li>
+                                <li><a href="">Fieldset e legend</a></li>
+                                <li><a href="">Atributo action do elemento form e elemento output</a></li>
+                        </ul>
+                </nav>
+        </header>
+        <main>
+                <!--fieldset para fazer uma borda em volta do conteudo dentro do HTML-->
+                <fieldset>
+                        <legend>Texto poético</legend>
+
+
+                        <p>Estou aprendendo HTML, e quase partindo pra aprender github e CSS. A estrutura de ensino do
+                                curso é
+                                impecável. A parte que eu não gosto é o caminho para chegar no curso, pois tenho que
+                                pegar
+                                ônibus e metrô pra vir. </p>
+
+
+                        <br><br><br>
+                        <!-- input tupe="submit" para enviar o formulário-->
+                        <!-- Dentro do name, especifique, sobre o que se trata-->
+                        <!-- maxlength serve pra limitar o numero de caracterers-->
+                        <!-- value muda o nome do input box submit-->
+                        <!-- required obriga a enviar com algum conteudo dentro-->
+                        <!-- id e for pra facilitar a busca pela tag -->
+
+                        <form action="mailto:kauangfx@hotmail.com" name="Churrasco">
+                                <label for="cTipos de carne">Tipo de carne</label>
+
+                                <input size="30" maxlength="10" required type="text" name="Informação sobre churrasco"
+                                        id="cTipos de carne">
+
+                                <input type="submit" value="Envia aqui ó" name="Enviar">
+
+
+                                <br>
+                                <bR>
+                                <!--Radio-->
+                                <!-- label ~ for="..." Para denominar -->
+                                <!-- input ~ id="..." para denominar-->
+
+                                <br>
+                                <input type="radio" name="Tyleralbum">
+                                <label for="Tyler,album">Cherrybomb</label> <br>
+                                <input type="radio" name="Tyleralbum">
+                                <label for="Tyler,album">Flowerboy</label> <br>
+                                <input type="radio" name="Tyleralbum">
+                                <label for="Tyler,album">Igor</label> <br>
+                                <input type="radio" name="Tyleralbum">
+                                <label for="Tyler,album">Call me if you get lost</label> <br>
+                                <br> <br>
+
+
+                                <!--Checkbox-->
+                                <!-- label ~ for="..." Para denominar -->
+                                <!-- input ~ id="..." para denominar-->
+
+                                <input type="checkbox" name="Tyler,album2">
+                                <label for="Tyler,album">Cherrybomb</label> <br>
+                                <input type="checkbox" name="Tyler,album2">
+                                <label for="Tyler,album">Flowerboy</label> <br>
+                                <input type="checkbox" name="Tyler,album2">
+                                <label for="Tyler,album">Igor</label> <br>
+                                <input type="checkbox" name="Tyler,album2">
+                                <label for="Tyler,album">Call me if you get lost</label> <br><br>
+
+                                <!--select, lista suspensa-->
+                                <label for="">Qual o melhor time</label>
+                                <select name="" id="">
+                                        <option value="vasco">Vasco</option>
+                                        <option value="tottenham">Totteham</option>
+                                        <option value="milan">Milan</option>
+                                </select>
+
+
+                                <!--Tipo range-->
+                                <!--datalist (valor_01) faz junção com o list dentro da tag input -->
+                                <br><br>
+                                0
+                                <input type="range" list="valor_01" min="1" max="10" id="">10<br><br>
+                                <datalist id="valor_01">
+                                        <option value="1"></option>
+                                        <option value="2"></option>
+                                        <option value="3"></option>
+                                        <option value="4"></option>
+                                        <option value="5"></option>
+                                        <option value="6"></option>
+                                        <option value="7"></option>
+                                        <option value="8"></option>
+                                        <option value="9"></option>
+                                        <option value="10"></option>
+
+                                </datalist>
+
+                                <!--textarea-->
+
+                                <textarea name="" id="" cols="30" rows="10"z
+                                        placeholder="Digite aqui sua insatisfação conosco"></textarea><br><br>
+                                        <input type="submit">
+
+                                <!--dastlist, lista pré definida-->
+                </fieldset>
+                </form>
+        </main>
+</body>
+
+
+</html>

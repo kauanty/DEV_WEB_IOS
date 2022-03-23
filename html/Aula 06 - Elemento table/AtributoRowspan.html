@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Elemento table</title>
+</head>
+
+<body>
+    <header>
+        <h1>Exemplo atributo rowspan</h1>
+    </header>
+
+    <article>
+        <table>
+            <caption>Dinheiro poupado em 2020</caption>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th>Poupança</th>
+                    <th>Poupado p/ aniversário!</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Para mesclar colunas <td rowspan="#">...</td> -->
+                <tr>
+                    <td>Janeiro</td>
+                    <td>R$100</td>
+                    <td rowspan="2">R$50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>R$80</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>R$60</td>
+                    <td rowspan="2">R$23</td>
+                </tr>
+                <tr>
+                    <td>Abril</td>
+                    <td>R$40</td>
+                </tr>
+                <tr>
+                    <td>Junho</td>
+                    <td>R$20</td>
+                </tr>
+            </tbody>
+        </table>
+        <br />
+    </article>
+
+    <footer>
+        <small>Instituto da Oportunidade Social</small>
+    </footer>
+</body>
+
+</html>
