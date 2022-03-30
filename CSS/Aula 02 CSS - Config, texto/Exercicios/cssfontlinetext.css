@@ -1,0 +1,37 @@
+body {
+    font-family: 'Montserrat';
+    padding: 20%;
+    text-align: center;
+    background-color: #121212;
+}
+
+.weigth {
+    color: #DAFDBA;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.style {
+    color: #9AEBA3;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.heigth {
+    color: #45C4B0;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.indent {
+    color: #13678A;
+    text-indent: 45px;
+    font-size: 20px;
+}
+
+.shadow {
+    color: #12465c;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #DAFDBA;
+    font-size: 20px;
+}

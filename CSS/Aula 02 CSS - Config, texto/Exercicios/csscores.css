@@ -1,0 +1,31 @@
+body {
+    font-family: 'Montserrat';
+    margin-top: 30%;
+    text-align: center;
+    background-color: #121212;
+}
+
+h1 {
+    color: red;
+    font-size: 30px;
+}
+
+h2 {
+    color: #00F700;
+    font-size: 30px;
+}
+
+h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+h4 {
+    color: rgb(245, 73, 251);
+    font-size: 30px;
+}
+
+h5 {
+    color: hsl(40, 94%, 58%);
+    font-size: 30px;
+}
