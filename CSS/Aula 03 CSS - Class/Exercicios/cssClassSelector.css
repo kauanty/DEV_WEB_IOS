@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+body {
+    background-color: #121212;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgb(0, 0, 0);
+    color: #ffff;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    background-image:url(../22.png);
+    background-size: cover;
+}
+
+.corTexto {
+    color: rgb(9, 255, 0);
+}
+.fundo {
+    background-color: #a9a9a9;
+}
