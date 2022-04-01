@@ -1,0 +1,28 @@
+*{
+    text-align: center;
+    font-family: 'Montserrat';
+    background-color: #121212;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.esqueci {
+    color: lightgreen;
+}
+
+#esqueci2 {
+    color: purple;
+}
+p#sobrenome {
+    color: lightsalmon;
+}
+
+section p {
+    color:lightgoldenrodyellow;
+    font-style: italic;
+}
+
+footer {
+    color: white;
+    font-size: 12px;
+}
