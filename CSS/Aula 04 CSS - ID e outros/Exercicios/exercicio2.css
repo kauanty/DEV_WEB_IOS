@@ -1,0 +1,46 @@
+@charset "UTF-8";
+ 
+body {
+    background-color: #733636;
+    font-family: 'Montserrat';
+}
+ 
+.info {
+    text-align: center;
+    list-style-type: none;
+    text-shadow: 1px 2px 3px black;
+}
+ 
+h2, h1 {
+    text-align: center;
+    background-color: #D95448;
+}
+ 
+a {
+    color: #A63921;
+    font-family: 'Fredoka One';
+    font-size: 20px;
+}
+ 
+table{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border-collapse: collapse;
+ 
+}
+ 
+.tTabela {
+    background-color: #D95448;
+    color: #ffff;
+    font-weight: bold;
+}
+ 
+.tEscuro {
+    background-color: #2e2e2e;
+    color: white;
+}
+ 
+.tClaro {
+    background-color: #dbd9d9;
+    color: black;
+}
