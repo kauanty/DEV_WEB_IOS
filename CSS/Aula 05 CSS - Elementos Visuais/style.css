@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+.bordatracejada {
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: blueviolet;
+}
