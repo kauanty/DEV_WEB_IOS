@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+body{
+    text-align: center;
+    background-color:#260101;
+    color: white;
+    background-image: url(./red-dead-redemption-2-20190107161559_ynry.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+
+    color: white;
+}
+.nav{
+    font-size: 30px;
+    color: white;
+}
+h1{
+    background-color: #A6540D;
+    padding: 4%;
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px black;
+}
+h2{
+    background-color:#D9981E ;
+    padding: 7px;
+    font-family: 'Special Elite', cursive;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+ul{
+    font-family: 'PT Mono', monospace;
+    color: #F2D541;
+    list-style-type: none;
+}
+img{
+    height: 350px;
+    width: 650px;
+}
+figure{
+    height: 400px;
+    width: 650px;
+    padding: 5px;
+    border: 1px solid white;
+    color: white;
+}
+figcaption{
+    margin-top: 15px;
+}
+
+/* Color Theme https://color.adobe.com/pt/IMG_4211%20web-color-theme-12843467  */
