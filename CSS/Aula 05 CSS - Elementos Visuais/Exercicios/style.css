@@ -8,8 +8,11 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
-a{
 
+main{
+    padding: 3em;
+}
+a{
     color: white;
 }
 .nav{
@@ -17,16 +20,20 @@ a{
     color: white;
 }
 h1{
-    background-color: #A6540D;
+    background-color: #4f2b0c;
     padding: 4%;
     font-family: 'Fredoka One', cursive;
     font-size: 40px;
+    border-radius: 10px;
     text-shadow: 2px 2px 2px black;
+
 }
 h2{
-    background-color:#D9981E ;
+    background-color:#d1a85d ;
     padding: 7px;
+    font-size: 40px;
     font-family: 'Special Elite', cursive;
+    border-radius: 30px;
 }
 p{
     font-family: 'Montserrat', sans-serif;
@@ -35,6 +42,13 @@ ul{
     font-family: 'PT Mono', monospace;
     color: #F2D541;
     list-style-type: none;
+}
+ul p {
+    font-size: 1.4em;
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
 }
 img{
     height: 350px;
