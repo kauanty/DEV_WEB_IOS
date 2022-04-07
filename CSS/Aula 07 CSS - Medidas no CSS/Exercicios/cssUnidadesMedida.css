@@ -1,0 +1,40 @@
+body {
+    background-color: #563f2d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: red;
+}
+
+header img {
+    height: 200px;
+    width: 200px;
+}
+
+header {
+    background-color: lightpink;
+    padding: 3%;
+}
+.gradientum{
+    background-image: linear-gradient(to right, #FF8B94, #F26964);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.gradientdois{
+    background-image: linear-gradient(to right, #1EBBD7, #BEFFE9);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.nav{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
