@@ -1,40 +1,67 @@
 body {
-    background-color: #563f2d;
-    font-family: 'Montserrat', sans-serif;
+    background-color: #80BFBA;
+}
+
+header {
+    background-color: lightpink;
 }
 
 a {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-    background-color: red;
+    padding: 0.5%;
+    background-color: #B230AE;
+}
+
+.nav {
+    text-align: center;
+    margin-top: 1%;
+}
+
+#border {
+    border: #fff 2px solid;
+    border-radius: 13px;
+    padding: 0.7% 2%;
+    margin-right: 2%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 1%;
 }
 
 header img {
-    height: 200px;
-    width: 200px;
-}
-
-header {
-    background-color: lightpink;
-    padding: 3%;
-}
-.gradientum{
-    background-image: linear-gradient(to right, #FF8B94, #F26964);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-.gradientdois{
-    background-image: linear-gradient(to right, #1EBBD7, #BEFFE9);
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-}
-.nav{
-    text-align: center;
+    height: 150px;
+    width: 150px;
+    margin-top: -100%;
 }
 
 h1 {
     text-align: center;
+    font-family: 'DM Serif Display', serif;
 }
+
+
+/* Medida Relativa (vw) */
+.gradient {
+    background-image: linear-gradient(to right, #FFF1F1, #B5DBCE);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 4vw;
+}
+
+
+/* Medida Absoluta (px) */
+section {
+    font-size: 10px;
+}
+
+
+/* Medida Relativa (em) */
+.content p {
+    color: #121212;
+    font-family: 'Montserrat';
+    font-size: 2.5em;
+}
+
+/* */
