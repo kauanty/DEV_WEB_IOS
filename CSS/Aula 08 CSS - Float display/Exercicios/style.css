@@ -1,31 +1,241 @@
-.container{
+body {
+    background-color: #0F0F0F;
+}
+
+.container {
     padding: 2em;
 }
-body{
-    background-color: #2a2929;
+
+/* ~~~~~ Header ~~~~*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    font-weight: bold;
+    background-color: #2C2C2C;
 }
-header{
-    padding-top: 10px;
-    background-color: white;
-    height: 100%;
-    width: 100%;
-}
-header img{
-    height: 50px;
-    width: 100px;
-    margin-left: 15%;
-    margin-top: -5%;
-    position: absolute;
-}
-a{
+
+li,
+a {
     font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
 }
-button{
-    margin-left: 2%;
-    
+
+.logo {
+    height: 70px;
+    width: 200px;
+    margin-left: -3%;
+    cursor: pointer;
 }
-.button{
-    text-align: right;
-    margin-right: 20%;
+
+.links {
+    list-style: none
+}
+
+.links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+/* ~~~~~    x    ~~~~*/
+
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat';
+    color: white;
+    margin-top: 4%
+}
+
+/* ~~~~~ Primeiro filme ~~~~*/
+.bold {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 63%;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding-top: 3%;
+    font-size: 20px;
+}
+
+.vLista {
+    padding: 1% 1% 4%;
+    background-image: linear-gradient(to right, #001B3A, #00224B);
+    border: 1px solid #2D66F1;
+    border-radius: 12px;
+    margin-top: 2%;
+    height: 500px;
+}
+
+.vLista img {
+    float: left;
+    width: 500px;
+    height: 300px;
+}
+
+.vLista figure {
+    height: 350px;
+    padding-top: 12px;
+    width: 500px;
+    padding: 1%;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+/* ~~~~~    x    ~~~~*/
+
+
+/* ~~~~~ Segundo filme ~~~~*/
+.vLista2 {
+    padding: 1% 1% 4%;
+    background-image: linear-gradient(to right, #001B3A, #00224B);
+    border: 1px solid #2D66F1;
+    border-radius: 12px;
+    margin-top: 2%;
+    height: 400px;
+}
+
+.vLista2 figure {
+    height: 350px;
+    padding-top: 12px;
+    width: 500px;
+    padding: 1%;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+.vLista2 img {
+    float: left;
+    width: 500px;
+    height: 300px;
+}
+
+.img2 {
+    float: right;
+    margin-top: 2.5%;
+}
+
+.vLista2 p {
     margin-top: 3%;
+    text-align: center;
+    line-height: 35px;
+}
+
+/* ~~~~~    x    ~~~~*/
+
+/* ~~~~~ Tokyo (ia esquecer de colocar meu favorito) ~~~~*/
+.imgt{
+    float: left;
+}
+
+/* ~~~~~ Terceiro filme ~~~~*/
+.vLista3 {
+    padding: 1% 1% 4%;
+    background-image: linear-gradient(to right, #001B3A, #00224B);
+    border: 1px solid #2D66F1;
+    border-radius: 12px;
+    margin-top: 2%;
+    height: 400px;
+}
+
+.vLista3 figure {
+    margin-top: 3%;
+}
+
+.vLista3 img {
+    height: 250px;
+    width: 400px;
+}
+
+.vLista3 figure {
+    height: 300px;
+    width: 400px;
+    padding-top: 12px;
+    padding: 1%;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+.vLista3 .bold2 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+    font-weight: bold;
+}
+
+.vLista3 .img3 {
+    float: left;
+}
+
+.vLista3 .img4 {
+    float: right;
+}
+
+.vLista3 p {
+    text-align: center;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.vLista3 ol li {
+    text-align: center;
+    line-height: 20px;
+    font-size: 16px;
+    list-style-position: inside;
+    text-shadow: 1px 2px 3px black;
+}
+
+.vLista3 .green{
+    color: #2ed62e;
+    font-weight: 700;
+}
+
+.vLista4 {
+    padding: 1% 1% 4%;
+    background-image: linear-gradient(to right, #001B3A, #00224B);
+    background-image: url(./wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid #2D66F1;
+    border-radius: 12px;
+    margin-top: 2%;
+    height: 400px;
+    text-align: center;
+}
+
+.vLista4 h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    font-size: 30px;
+}
+.vLista4 ol li{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    line-height: 34px;
+    font-size: 20px;
+    text-shadow: 1px 1px 3px black;
+    list-style-position: inside;
+}
+
+/* ~~~~~ Footer ~~~~*/
+
+footer{
+    text-align: center;
 }
