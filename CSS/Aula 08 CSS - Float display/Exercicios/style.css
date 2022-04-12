@@ -190,6 +190,7 @@ p {
     text-align: center;
     font-weight: bold;
     text-decoration-line: underline;
+    margin-top: -1;
 }
 
 .vLista3 ol li {
