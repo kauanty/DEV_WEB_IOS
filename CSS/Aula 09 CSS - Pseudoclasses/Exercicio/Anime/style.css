@@ -17,6 +17,7 @@ body {
 }
 
 header {
+    height: 10%;
     display: flex;
     justify-content: space-between;
     border-radius: 10px;
@@ -94,8 +95,8 @@ main h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: center;
-    font-size: 100%;
-    margin-top: -6%;
+    font-size: 90%;
+    margin-top: -11%;
     display: grid;
     align-items: center;
     color: white;
@@ -103,10 +104,10 @@ main h1 {
 
 .saiba {
     padding: 2%;
-    width: 10%;
+    width: 14%;
     display: flex;
     border-radius: 13px;
-    margin-top: -15%;
+    margin-top: -30%;
     margin-left: 42%;
     background-image: linear-gradient(#C1C2BC, #8C867C);
 }
@@ -119,7 +120,9 @@ iframe {
     border-image-slice: 1;
     border-width: 5px;
     border-image-source: linear-gradient(to left, #314A20, #528f29);
+    display: inline-block;
 }
+
 .video{
     width: 100%;
     display: grid;
