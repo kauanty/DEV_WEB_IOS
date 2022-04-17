@@ -1,0 +1,292 @@
+.container {
+    padding: 2em;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(./wallpaper.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* ~~~~~ Fim da Header ~~~~~ */
+
+header img {
+    width: 7vw;
+    height: 6vw;
+    cursor: pointer;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    height: 6vw;;
+}
+
+.menu {
+    display: flex;
+    margin-top: -1vw;
+}
+
+.menu li {
+    text-shadow: 1px 1px 4px black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu li,
+a {
+    display: inline-block;
+    padding: 1em;
+    vertical-align: middle;
+}
+
+.menu a {
+    border: 0.1em solid;
+    border-style: hidden;
+    text-decoration: none;
+    background-color: #dad6d5;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1em 2.2em;
+    font-size: 1.4vw;
+    text-decoration: none;
+}
+
+
+/* ~~~~~ Fim da Header ~~~~~ */
+
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 3px 2px #00527F;
+    margin-bottom: 4%;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+/* ~~~~~ Primeiro Lugar  ~~~~~ */
+
+.content {
+    padding-bottom: 16vw;
+    padding-top: 1%;
+    border-radius: 14px;
+    max-width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 7%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 132, 255, 0.233);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+}
+
+.content img {
+    padding: 3%;
+    max-width: 92%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content div {
+    flex: 1 1 200px;
+}
+
+.content h2{
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 3px 4px black;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 100%;
+}
+.content p{
+    font-size: 100%;
+    text-align: center;
+    padding: 0 5%;
+    color: white;
+}
+#link{
+    margin-left: 30%;
+    margin-bottom: -30%;
+}
+
+
+/* ~~~~~ Segundo Lugar  ~~~~~ */
+
+.content2 {
+    margin-top: 5%;
+    padding-bottom: 16vw;
+    padding-top: 1%;
+    border-radius: 14px;
+    max-width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 7%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 132, 255, 0.233);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+}
+
+.content2 img {
+    padding: 3%;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content2 h2{
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 4px 4px black;
+    text-align: center;
+    padding-bottom: 5%;
+    margin-top: 3%;
+    font-size: 150%;
+}
+.content2 p{
+    font-size: 120%;
+    text-align: center;
+    padding: 0 5%;
+    color: white;
+}
+
+#saibaM{
+    text-decoration: none;
+    color: #05396B;
+    max-width: 152px;
+    border-radius: 45px;
+    cursor: pointer;
+    border: none;
+    background: #dad6d5;
+    letter-spacing: 2px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition:all 0.3s ease;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+#saibaM:hover{
+    background: #2ceae5;
+    transform: translateY(-7px);
+    color: #fff;
+    box-shadow: 0px 10px 25px rgba(46, 223, 229, 0.445);
+}
+
+
+/* ~~~~~    Lista      ~~~~~ */
+.lista{
+    margin-top: 5%;
+    border-radius: 14px;
+    max-width: 85%;
+    padding-bottom: 4%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 132, 255, 0.233);
+    backdrop-filter: blur(4.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+}
+.lista h2{
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 2px 3px black;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.lista ul, li{
+    text-align: center;
+    color: white;
+    line-height: 200%;
+}
+
+li:nth-child(2), li:nth-child(5), li:nth-child(7),li:nth-child(9){
+    text-decoration: underline;
+    text-decoration-color: #0cfa2c;
+}
+
+
+footer{
+    font-size: 1.3vw;
+    margin-top: 1%;
+    padding-bottom: 3%;
+    text-align: center;
+    color: white;
+}
+
+
+
+/*  ~~~~~ Exigências ~~~~~ */
+
+a:hover{
+    box-shadow: 0 0 10px 5px #00537f7a;
+}
+ /* Ao invés de mudar a cor do texto da header, deixei para fazer uma sombra no botão, mas pra mudar seria:
+ a:hover{
+    color: darkgreen;
+    }
+*/
+p::selection{
+    background-color: #0cfa2c;
+}
+p::first-letter{
+    text-transform: uppercase;
+    background-color: #0cfa2c;
+    padding: 2px;
+}
+h1::selection, h2::selection, h3::selection{
+    background-color: #ff0000;
+    color: white;
+}
+.container img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+
+
+
+/*  ~~~~~ SCROLLBAR ~~~~~ */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #06233f;
+    box-shadow: inset 0 0 5px #121212;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #095297;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #06335a;
+}
