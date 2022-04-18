@@ -1,0 +1,208 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #202833;
+    background-image: url(./pattern.webp);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    background-color: #0B0C10;
+    padding-top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header img {
+    max-width: 30%;
+    cursor: pointer;
+}
+
+header img:hover {
+    box-shadow: 0 0 6px 6px #202833;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: 1px 2px 3px black;
+    font-size: 2.5vw;
+}
+
+header h2 {
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    color: #C4C6C8;
+    font-weight: 400;
+    font-style: italic;
+    text-shadow: 1px 1px 1px black;
+    padding-bottom: 2%;
+    font-size: 1.7vw;
+}
+
+/* ~ ~ ~ ~ ~ Fim da Header ~ ~ ~ ~ ~ */
+
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* ~ ~ ~ ~ ~ Nome e numero do Pokemon ~ ~ ~ ~ ~ */
+
+.nome h3 {
+    text-align: justify;
+    text-shadow: 1px 1px 1px #202833;
+    color: white;
+    font-size: 2.3vw;
+    letter-spacing: 1px;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+.sub {
+    display: inline-block;
+    color: #66FCF1;
+    text-shadow: 1px 1px 1px #202833;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-size: 1.3vw;
+    letter-spacing: 1px;
+    margin-left: 3%;
+}
+
+.nome p {
+    font-family: 'Noto Serif', serif;
+    font-size: 1.2vw;
+    color: #0B0C10;
+}
+
+
+/* ~ ~ ~ ~ ~ Blocos ~ ~ ~ ~ ~ */
+
+.col1, .col2{
+    display: flex;
+    margin-top: 3%;
+    margin: 0 auto;
+    width: 94%;
+    background: rgba(197, 198, 199, 0.479);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+}
+
+.poke1, .poke2, .poke3, .poke4{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.poke4{
+    order: -1;
+    /* Deixei o Regigigas pro outro lado */
+}
+
+.info {
+    width: 35%;
+    margin: 0 auto;
+    padding: 4%;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.2vw;
+    line-height: 30px;
+}
+
+.info li:nth-child(2n + 1) {
+    background-color: #66FCF1;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: #202833;
+}
+
+.info li:nth-child(2n) {
+    font-size: 1vw;
+    background-color: #202833;
+    color: white;
+}
+/* ~ ~ ~ ~ ~ Botões do tipo de pokemon ~ ~ ~ ~ ~ */
+.deox, .lugia, .arce, .regi{
+    display: flex;
+    width: 100%;
+}
+#psy{
+    font-family: 'montserrat';
+    font-weight: bold;
+    color: white;
+    list-style-type: none;
+    border: 1px solid #fff;
+    background-image: linear-gradient(#F366B9, #f091c8);
+    text-align: center;
+    padding: 1% 10%;
+    font-size: 1.5vw;
+    border-radius: 14px;
+    margin-left: 26%;
+    box-shadow: 1px 2px 8px #202833;;
+}
+
+#fly{
+    font-family: 'montserrat';
+    font-weight: bold;
+    color: white;
+    list-style-type: none;
+    border: 1px solid #fff;
+    background-image: linear-gradient(#3DC7EF, #BDB9B8);
+    text-align: center;
+    margin-right: 22%;
+    padding: 1% 10%;
+    font-size: 1.5vw;
+    border-radius: 14px;
+}
+
+.lugia #psy{
+    font-family: 'montserrat';
+    font-weight: bold;
+    color: white;
+    list-style-type: none;
+    border: 1px solid #fff;
+    background-image: linear-gradient(#F366B9, #f091c8);
+    text-align: center;
+    padding: 1% 10%;
+    font-size: 1.5vw;
+    border-radius: 14px;
+    margin: 0 auto;
+}
+
+#nor{
+    font-family: 'montserrat';
+    font-weight: bold;
+    color: white;
+    list-style-type: none;
+    border: 1px solid #fff;
+    background-image: linear-gradient(#A4ACAF, #c3c5c5);
+    text-align: center;
+    margin-left: 26%;
+    padding: 1% 10%;
+    font-size: 1.5vw;
+    border-radius: 14px;
+}
+
+
+footer{
+    font-family: 'montserrat';
+    font-size: 1.3vw;
+    margin-top: 1%;
+    padding-bottom: 3%;
+    text-align: center;
+    color: white;
+}
