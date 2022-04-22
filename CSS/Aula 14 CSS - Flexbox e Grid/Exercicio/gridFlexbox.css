@@ -1,1 +1,202 @@
 @charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: #111111;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #202020;
+    padding-top: 1.4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img {
+    max-width: 20%;
+    cursor: pointer;
+}
+
+header h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding-bottom: 1%;
+    margin-top: 2%;
+    letter-spacing: 2px;
+    font-size: 3vw;
+}
+
+header h3 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 2%;
+    font-size: 2vw;
+}
+
+/* ~ ~ ~ ~ ~ ~ Fim da header ~ ~ ~ ~ ~ ~ */
+
+
+/* ~ ~ ~ ~ ~ ~ Primeria Grid ~ ~ ~ ~ ~ ~ */
+
+.grid1 {
+    max-width: 90%;
+    margin: 5% auto;
+    border-radius: 20px;
+    background-color: #1D1D1D;
+    padding: 2%;
+    display: grid;
+    column-gap: 4%;
+    grid-template-areas:
+        "text2 naruto rocklee"
+        "text1 peso rocklee"
+        "text3 temari rocklee";
+}
+
+.grid1 img,
+.grid2 img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.rocklee {
+    grid-area: rocklee;
+    /* grid-row: rocklee; */
+}
+
+.naruto {
+    grid-area: naruto;
+}
+
+.peso {
+    grid-area: peso;
+}
+
+.temari {
+    grid-area: temari;
+}
+
+.estilo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E1E1E1;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 1.8vw;
+}
+
+.text1 {
+    grid-area: text1;
+}
+
+.text2 {
+    grid-area: text2;
+}
+
+.text3 {
+    grid-area: text3;
+}
+
+
+/* ~ ~ ~ ~ ~ ~ Segunda Grid ~ ~ ~ ~ ~ ~ */
+
+.grid2 {
+    max-width: 70%;
+    margin: 5% auto;
+    border: 1px solid #fff;
+    background-color: #1D1D1D;
+    padding: 2%;
+    display: grid;
+    column-gap: 4%;
+    grid-template-areas:
+        "cima cima cima"
+        "baixo baixo baixo";
+}
+
+.cima {
+    grid-area: cima;
+}
+
+.baixo {
+    grid-area: baixo;
+}
+
+/* ~ ~ ~ ~ ~ ~ Links ~ ~ ~ ~ ~ ~ */
+
+.links {
+    display: flex;
+    justify-content: center;
+    color: #E1E1E1;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 1.3vw;
+    width: 100%;
+}
+
+.ler,
+.assistir {
+    margin-right: 10%;
+    text-align: center;
+}
+
+.ler a,
+.assistir a {
+    justify-content: center;
+    margin-top: 5%;
+    display: flex;
+    padding: 3%;
+    border: 1px solid white;
+    border-style: hidden;
+    border-radius: 16px;
+    background-color: #353434;
+    color: #E1E1E1;
+    text-decoration: none;
+    font-size: 1.3vw;
+}
+
+.ler a:hover, .assistir a:hover {
+    background: #4e4e4e;
+    transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0px 10px 25px rgba(58, 59, 59, 0.445);
+}
+
+footer {
+    font-size: 1.3vw;
+    margin-top: 10%;
+    padding-bottom: 3%;
+    text-align: center;
+    color: white;
+}
+
+/*  ~~~~~ SCROLLBAR ~~~~~ */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2d2e;
+    box-shadow: inset 0 0 5px #141212;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #474b4d;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #121212;
+}
