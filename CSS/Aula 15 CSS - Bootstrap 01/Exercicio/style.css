@@ -1,15 +1,42 @@
-.eazy{
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+.text-center img {
+    margin-top: 3%;
+}
+
+img {
+    border-radius: 20px;
+}
+
+.eazy {
     width: 100%;
     height: 10%;
-    background-color: green;
     display: flex;
-
+    color: #414141;
+    font-family: 'Montserrat', sans-serif;
 }
-.eazy img{
+
+.eazy img {
     width: 100%;
     object-fit: cover;
     height: 30vw;
+    box-shadow: 1px 1px 3px #1212125a;
 }
-.text{
-width: 20%;
+
+.text {
+    width: 90%;
+    padding: 3%;
+    color: #414141;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    margin-top: 5%;
 }

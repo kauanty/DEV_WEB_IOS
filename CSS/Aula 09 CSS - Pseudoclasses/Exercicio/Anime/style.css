@@ -10,7 +10,7 @@
 
 body {
     background-color: #533618;
-    background-image: url(./wallpaper.jpg);
+    background-image: url(img/wallpaper.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -334,3 +334,11 @@ footer p:after {
     content:"\00a9";
     margin-bottom: 30%;
   }
+
+
+     /* Palette
+        #533618
+        #725436
+        #8C867C
+        #C1C2BC
+        #314A20 */
