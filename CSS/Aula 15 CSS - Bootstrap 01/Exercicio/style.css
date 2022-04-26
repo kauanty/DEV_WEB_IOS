@@ -1,0 +1,15 @@
+.eazy{
+    width: 100%;
+    height: 10%;
+    background-color: green;
+    display: flex;
+
+}
+.eazy img{
+    width: 100%;
+    object-fit: cover;
+    height: 30vw;
+}
+.text{
+width: 20%;
+}
