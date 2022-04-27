@@ -2,7 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+body{
+    background-color: #E4E6EA;
 
+}
 .text-center img {
     margin-top: 3%;
 }
