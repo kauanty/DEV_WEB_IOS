@@ -1,0 +1,25 @@
+1) Yara mora no 4° andar  etem um cachorro.
+
+2)  
+     V	V	F
+     V	F	F
+     V	F	V
+     F	F	V
+
+chovendo = gato no quarto
+         = gato no quarto = rato na toca = queijo na geladeira
+queijo na mesa = gato no sotão = rato no quarto
+
+
+3) O gato está no sotão, e o rato está no Quarto.
+
+
+
+4) 
+          1		               2		            3		            4
+        Raquel	             Vivian	              Bruna	               Ana
+        Gatos	            Passáros	         Cachorro	          Peixes
+        11 anos	            10 anos	              9 anos              8 anos
+        Laranja	            Limonada	         Maracujá 	          Morango
+        FPS 45	             FPS 55                FPS 40     	      FPS 50
+        Branco	              Azul	              Amarelo	           Verde
