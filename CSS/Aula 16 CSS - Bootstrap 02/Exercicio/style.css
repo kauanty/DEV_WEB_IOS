@@ -1,0 +1,184 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.showcase{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.showcase video{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    font-size: 15vw;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    mix-blend-mode: multiply;
+}
+
+/* ~ ~ ~ ~ ~ CONTAINER ~ ~ ~ ~ ~ */
+.container{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 30px
+    /* background-color: yellow; */
+}
+.content {
+    padding-top: 1%;
+    border-radius: 10px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 7%;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: red; */
+}
+
+
+.content img {
+    padding: 3%;
+    max-width: 92%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content div {
+    flex: 1 1 200px;
+}
+
+.content h2{
+    font-weight: bold;
+    color: white;
+    text-shadow: 1px 3px 4px black;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 100%;
+}
+.content p{
+    font-size: 100%;
+    text-align: center;
+    padding: 0 5%;
+    color: white;
+}
+
+form .form-label{
+    font-size: 1.5rem;
+}
+
+footer{
+    margin-top: 1%;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ~~~~~ SCROLLBAR ~~~~~ */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #2c2d2e;
+    box-shadow: inset 0 0 5px #141212;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #474b4d;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #121212;
+}
