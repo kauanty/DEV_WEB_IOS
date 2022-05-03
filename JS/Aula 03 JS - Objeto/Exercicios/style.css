@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
 }
-
+    /* Eu coloquei um template de confetti no js quando clica no botão certo, mas só funciona no Go live :c */
 body{
     background-color: #121212;
     background-image: url(./background.png);
