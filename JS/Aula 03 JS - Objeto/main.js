@@ -44,3 +44,7 @@ const boasVindas = () => {
   alert("Bem vindo a nossa página otario");
   console.log("Bem a nossa página otário");
 };
+
+function eventClick(){
+    console.log('Você clicou aqui otario')
+}
