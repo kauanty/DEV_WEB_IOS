@@ -49,7 +49,7 @@ console.log(`O resultado da soma é:
  //Substituir uma string dentro da string
  let string9 = 'Aqui vai um texto';
  let string10 = string9.replace('Aqui', 'Kauan')
- console.log(string9)
+ console.log(string10)
 
 
  //Remover espaços da string
