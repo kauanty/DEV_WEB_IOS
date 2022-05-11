@@ -31,4 +31,6 @@ convidados.shift()
 console.log(convidados)
 
 var convidadosString = convidados.join ('-')
+console.log('\n')
+console.log('No fim da festa sobrou apenas os convidados⬇')
 console.log (convidadosString)
