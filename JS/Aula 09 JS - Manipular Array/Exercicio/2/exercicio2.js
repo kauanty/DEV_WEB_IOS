@@ -37,7 +37,28 @@ const alunos = [
     },
 ]
 
-const nomeAno = alunos.filter((alunos) => {
 
-    console.log(`Nome = ${alunos.nome} Ano =  ${alunos.ano}`)
+//Retornando nome e ano dos alunos
+const nomeAno = alunos.filter((alunos) => {
+    console.log(`O aluno(a) ${alunos.nome} está no ${alunos.ano}`)
 })
+
+console.log('\n')
+
+//Retornando alunos do segundo ano
+i = alunos.filter((filtro) => {
+    if(filtro.ano == '2C' || filtro.ano == '2B'){
+        console.log(filtro)
+    }
+});
+
+console.log('\n')
+
+//Calculo da média dos alunos
+calc = (alunos[0].nota + alunos[1].nota + alunos[2].nota + alunos[3].nota + alunos[4].nota + alunos[5].nota) / 6
+if (calc >= 7){
+    console.log('Os alunos estão acima da média')
+}
+else{
+    console.log('Os alunos estão abaixo da média')
+}
