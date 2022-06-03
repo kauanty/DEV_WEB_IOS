@@ -7,9 +7,6 @@ const Header = (props) => {
     );
 };
 
-
-
-
 Header.defaultProps = {
     nome: 'Nome padrão',
 };
