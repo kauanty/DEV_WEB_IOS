@@ -1,19 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
-
+*{
+    font-family: 'Montserrat';
+    text-align: center;
+}
 body{
+    background-image: url(./img/hh.png);
+    background-size: 100vw;
+    background-color: #121212;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Montserrat';
     margin-top: 3%;
-    padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/hh.png);
-    background-size: cover;
-    background-color: #121212;
-    color: white;
-    font-family: 'Montserrat';
 }
-
+#bg{
+    width: 100%;
+    position: fixed;
+}
 #form{
     display: flex;
     flex-direction: column;
@@ -38,10 +44,13 @@ input[type="text"]{
     outline: none;
     border: none;
     margin: 1% 0;
-    background-color: #D9D9D9;
-    
+    background-color: #D9D9D9;    
 }
-
+#m18{
+    font-size: 15px;
+    margin-bottom: 5%;
+    color: #f83d3d;
+}
 input[type="date"]{
     width: 70%;
     height: 40px;
