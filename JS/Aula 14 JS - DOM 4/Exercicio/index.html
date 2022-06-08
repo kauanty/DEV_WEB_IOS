@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="form">
+        <h1>Entrada do Hopi hari 🎡</h1>
+        <input type="text" class=""  id="inputNome" placeholder="Nome e Sobrenome" >
+        <input type="date" class=""  id="inputData" placeholder="Data de Nascimento" >
+        <input type="text" class=""  id="inputEmail" placeholder="E-mail" >
+        <label for="modo">Ingresso:</label>
+        <select name="" id="modo">
+            <option value="Gulag 1x1">Meia entrada</option>
+            <option value="Mata-Mata em Equipe">Completa</option>
+            <option value="Battle Royale Solo">VIP</option>
+            <option value="Battle Royale Squad">Full-acess + guest</option>
+        </select>
+        <input type="submit" value="Cadastrar" id="incluir">
+    </form>
+    <div id="cadastrados">
+        <h2>Cadastros Realizados</h2>
+        <ul id="lista">
+
+        </ul>
+        <button id="excluir">Excluir Cadastro</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
