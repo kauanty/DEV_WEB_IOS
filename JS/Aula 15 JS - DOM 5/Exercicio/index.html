@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./IMG/bag.png">
+        <h1>IOS SHOPEE</h1>
+    </header>
+
+    <section class="container text-dark" >
+        <div class="card card-body">
+            <h2 class="title">Crie seu item:</h2>
+            <hr>
+
+            <!-- Criando campos -->
+            <form id="addForm" class="d-flex justify-content-center align-items-end mb-3">
+
+                <div class="d-flex flex-column">
+                    <label for="item-name" class="form-label fs-4">Item</label>
+                    <input type="text" maxlength="20" id="item-text" class="form-control" required placeholder="digite o item...">
+                </div>
+
+                <div class="d-flex flex-column mx-5">
+                    <label for="item-value" class="form-label fs-4">Quantidade</label>
+                    <input type="number" id="item-number" class="form-control" required placeholder="digite a quantidade...">
+                </div>
+
+                <div class="d-flex flex-column">
+                    <label for="item-quantity" class="form-label fs-4">Valor</label>
+                    <input type="number" id="item-preco" class="form-control" required placeholder="digite o valor...">
+                </div>
+
+                <!-- Criando botão -->
+                <div class="col-2">
+                    <input type="submit" class="btn btn-outline-dark mx-4"value="Add"/>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <div class="container text-dark"  >
+        <div id="main" class="card card-body" >
+            <h2 class="title">Itens:</h2>
+            <ul id="items" class="list-group">
+            </ul>
+        </div>
+    </div>
+
+    <div class="container text-dark" >
+        <div id="preco" class="card card-body">
+            <h2>Meu Carrinho:</h2>
+            <ul id="total" class="list-group">
+
+            </ul>
+            <div>
+                <h2>Total:</h2>
+                <p id="soma">R$:0,00</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous">
+        </script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
