@@ -29,18 +29,19 @@ function criarLista(e){
         item = document.createElement('span')
         item.innerHTML = `${itemAdicionar.value}`
         li.appendChild(item)
+        
+        quantidade = document.createElement('span')
+        quantidadeGuardada = quantidadeAdicionar.value
+        quantidade.innerHTML = `${quantidadeGuardada}`
+        quantidade.className = `qtd`
+        quantidade.id = `qtd${i}`
+        li.appendChild(quantidade)     
 
         valor = document.createElement('span')
         valorGuardado = valorAdicionar.value
         valor.innerHTML = `${valorGuardado}`
         li.appendChild(valor)
 
-        quantidade = document.createElement('span')
-        quantidadeGuardada = quantidadeAdicionar.value
-        quantidade.innerHTML = `${quantidadeGuardada}`
-        quantidade.className = `qtd`
-        quantidade.id = `qtd${i}`
-        li.appendChild(quantidade)        
 
         botaoAumentar = document.createElement('button')
         botaoAumentar.innerHTML = '+'
@@ -85,11 +86,11 @@ function criarLista(e){
         subtotal = document.createElement('span')
         subtotal.innerHTML = quantidade.textContent*valor.textContent
         subtotal.className = 'subtotal'
-        li.appendChild(subtotal)
+        // li.appendChild(subtotal)
 
         i++
     } else{
-        alert('Preencha os campos corretamente!')
+        alert('Preencha corretament')
     }
 }
 

@@ -3,14 +3,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Montserrat';
     font-size: 1rem;
 }
 
 body{
-    margin: 0;
-    padding: 0%;
     background-color: #dbdbdb;
 }
 
@@ -22,6 +19,7 @@ header{
     text-align: center;
     background-color: #f0efef;
 }
+
 h1{
     margin-top: 12px;
     cursor: pointer;
@@ -35,7 +33,44 @@ header img{
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
     margin-top: 2em;
+}
+
+.divListacard{
+    background-color: #fff;
+}
+
+#preco ul{
+    padding-left: 30px;
+}
+
+li{
+    display: flex;
+    justify-content: space-between;
+}
+
+.liTotal{
+    margin: 5px 20px;
+    font-size: 1.2rem;
+    list-style-type: none;
+}
+
+li .btn{
+    align-items: stretch;
+    padding: 5px 20px
+}
+
+.l1{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    padding-bottom: 10px;
+    width: 80%;
+    margin-left: 30px;
+}
+.l2{
+    font-size: 1.1rem;
+}
+.l1 .x{
+    /* width: 70px; */
 }
