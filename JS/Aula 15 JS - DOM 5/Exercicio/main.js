@@ -86,7 +86,7 @@ function criarLista(e){
         subtotal = document.createElement('span')
         subtotal.innerHTML = quantidade.textContent*valor.textContent
         subtotal.className = 'subtotal'
-        // li.appendChild(subtotal)
+        li.appendChild(subtotal)
 
         i++
     } else{
