@@ -90,7 +90,7 @@ function criarLista(e){
 
         i++
     } else{
-        alert('Preencha corretament')
+        alert('Preencha corretamente')
     }
 }
 
