@@ -5,7 +5,7 @@ public class ParImpar {
         Scanner input = new Scanner(System.in);
 
 
-        //Digite o númeroçç
+        //Digite o número
         System.out.println("Digite o Número: ");
         int numero;
 
