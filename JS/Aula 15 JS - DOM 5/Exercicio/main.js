@@ -70,7 +70,7 @@ function criarLista(e){
             guardarValorQuantidadeSubtrair--
             e.target.previousElementSibling.previousElementSibling.innerHTML = `${guardarValorQuantidadeSubtrair}`
         
-            e.target.nextElementSibling.nextElementSibling.innerHTML = guardarValorQuantidadeSubtrair*valor.textContent
+            e.target.nextElementSibling.nextElementSibling.innerHTML = guardarValorQuantidadeSubtrair+valor.textContent
         }
 
         botaoExcluir = document.createElement('button')
