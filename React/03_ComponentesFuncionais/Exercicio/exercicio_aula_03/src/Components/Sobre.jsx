@@ -4,7 +4,7 @@ const estilo2 = { border: '1px solid black', borderRadius: '13px', padding: '0 1
 const Sobre = () => {
     return (
         <article style = {estilo2}>
-            <h2 style = {estilo1}>Ola, seja bem vindo</h2>
+            <h2 style = {estilo1}>Ola, seja bem vindo!</h2>
             <p style = {estilo}> Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
         </article>
     )
