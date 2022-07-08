@@ -1,14 +1,15 @@
 import './App.css';
-import BoasVindas from './Components/BoasVindas';
+import DarBoasVindas from './Components/BoasVindas';
 import Sobre from './Components/Sobre';
 
-function App () {
-    return (
-        <div className='App'>
-            <BoasVindas nome='Hercules'/>
-            <Sobre />
-        </div>
-    )
+
+function App() {
+  return (
+    <div>
+      <DarBoasVindas/>
+      <Sobre/>
+    </div>
+  )
 }
 
 export default App;
