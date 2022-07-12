@@ -18,10 +18,7 @@ public class Exercicio1 {
             numeros[i] = entrada.nextInt();
             System.out.print("\n");
         }
-
-
         maior = numeros[0];
-
         // Maior número
         for (int i = 0; i < numeros.length; i++) {
             if (numeros[i] > maior) {
@@ -35,13 +32,10 @@ public class Exercicio1 {
                 menor = numeros[i];
             }
         }
-
         //calculando média
         for (int i = 0; i < numeros.length; i++){
             media += numeros[i];
         }
-
-
         System.out.println("O maior número é: " + maior);
         System.out.println("E o menor número é: " + menor);
         System.out.println("A média é: " + media / numeros.length);
